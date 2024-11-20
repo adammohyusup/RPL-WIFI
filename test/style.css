@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(to right, white, #e0efff, #a0c4ff);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 20%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 12px #aaa;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+/* CSS for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.5em;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  textarea,
+  select,
+  button {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.2em;
+  }
+
+  label {
+    font-size: 0.9em;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  textarea,
+  select,
+  button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+  table {
+    font-size: 0.8em;
+  }
+
+  table th,
+  table td {
+    padding: 8px;
+  }
+}
